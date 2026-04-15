@@ -85,5 +85,39 @@
       "Strengthened the technical foundation behind my broader web-learning journey"
     ],
     "links": {}
+  },
+  {
+    "id": 4,
+    "slug": "social-media-marketing-presentation",
+    "title": "Social Media Marketing Trends Presentation",
+    "tagline": "Comprehensive marketing presentation on current social media trends and strategies.",
+    "summary": "A detailed presentation analyzing social media marketing trends, strategies, and best practices for modern digital marketing.",
+    "description": "This presentation explores the latest trends in social media marketing, including platform strategies, content creation, audience engagement, and measurement of marketing success. It provides insights into how businesses can leverage social media effectively in their marketing efforts.",
+    "techStack": ["Marketing", "Presentation Design", "Digital Strategy", "Social Media"],
+    "category": "Marketing",
+    "featured": true,
+    "image": "/images/projects/social-media-presentation-cover.svg",
+    "screenshots": [
+      "/images/projects/social-media-presentation-screen-1.svg",
+      "/images/projects/social-media-presentation-screen-2.svg"
+    ],
+    "features": [
+      "Analysis of current social media marketing trends and platform strategies",
+      "Content creation guidelines and best practices for engagement",
+      "Audience targeting and segmentation strategies",
+      "Performance measurement and analytics insights",
+      "Case studies of successful social media campaigns",
+      "Future predictions for social media marketing evolution"
+    ],
+    "metrics": [
+      "Comprehensive coverage of major social media platforms and their marketing potential",
+      "Professional presentation design with clear visual hierarchy",
+      "Actionable insights for implementing social media marketing strategies",
+      "Research-backed analysis of current market trends"
+    ],
+    "links": {
+      "liveDemo": "/Social_Media_Marketing_Trends_Marketing_Presentation_in_Black_Blue_compressed.pdf",
+      "github": ""
+    }
   }
 ]
