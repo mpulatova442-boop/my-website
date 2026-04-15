@@ -1,0 +1,14 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="#14292C"/>
+  <rect x="78" y="88" width="1044" height="724" rx="34" fill="#1E3A3E"/>
+  <rect x="136" y="150" width="928" height="160" rx="28" fill="#26A69A"/>
+  <rect x="136" y="344" width="430" height="406" rx="28" fill="#F7F0E6"/>
+  <rect x="600" y="344" width="464" height="180" rx="28" fill="#F09867"/>
+  <rect x="600" y="556" width="464" height="194" rx="28" fill="#F7F0E6"/>
+  <text x="176" y="226" fill="#14292C" font-family="Space Grotesk, sans-serif" font-size="42" font-weight="700">Services & lead capture</text>
+  <text x="176" y="274" fill="#17393C" font-family="Manrope, sans-serif" font-size="22">Hero, metrics, and premium calls to action</text>
+  <rect x="184" y="414" width="330" height="18" rx="9" fill="#14292C"/>
+  <rect x="184" y="450" width="278" height="16" rx="8" fill="#5A6E70"/>
+  <rect x="184" y="482" width="246" height="16" rx="8" fill="#5A6E70"/>
+  <circle cx="360" cy="620" r="84" fill="#26A69A" opacity="0.9"/>
+</svg>

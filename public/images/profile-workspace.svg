@@ -1,0 +1,18 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="#132A2E"/>
+  <rect x="74" y="80" width="1052" height="740" rx="36" fill="#1E3A3E"/>
+  <rect x="150" y="164" width="548" height="338" rx="28" fill="#F7F0E6"/>
+  <rect x="184" y="198" width="480" height="270" rx="22" fill="#E7D9C7"/>
+  <rect x="774" y="182" width="248" height="150" rx="24" fill="#26A69A"/>
+  <rect x="774" y="364" width="248" height="176" rx="24" fill="#F09867"/>
+  <rect x="150" y="560" width="872" height="166" rx="28" fill="#F7F0E6"/>
+  <rect x="204" y="616" width="188" height="18" rx="9" fill="#26A69A"/>
+  <rect x="204" y="654" width="536" height="16" rx="8" fill="#9CB2B0"/>
+  <rect x="204" y="686" width="420" height="16" rx="8" fill="#9CB2B0"/>
+  <rect x="438" y="616" width="184" height="18" rx="9" fill="#F09867"/>
+  <circle cx="988" cy="132" r="42" fill="#26A69A" opacity="0.25"/>
+  <circle cx="112" cy="770" r="58" fill="#F09867" opacity="0.22"/>
+  <text x="196" y="268" fill="#14292C" font-family="Space Grotesk, sans-serif" font-size="34" font-weight="700">Workspace</text>
+  <text x="196" y="314" fill="#5A6E70" font-family="Manrope, sans-serif" font-size="24">Figma, code editor, and review notes</text>
+  <text x="196" y="348" fill="#5A6E70" font-family="Manrope, sans-serif" font-size="24">all feeding the same component system.</text>
+</svg>

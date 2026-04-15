@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-base: 247 240 230;
+  --color-surface: 255 251 246;
+  --color-panel: 239 229 216;
+  --color-ink: 20 41 44;
+  --color-muted: 90 110 112;
+  --color-accent: 38 166 154;
+  --color-secondary: 204 112 54;
+  --color-line: 209 193 175;
+  color-scheme: light;
+}
+
+.dark {
+  --color-base: 11 24 27;
+  --color-surface: 18 35 39;
+  --color-panel: 25 44 49;
+  --color-ink: 236 231 224;
+  --color-muted: 153 170 168;
+  --color-accent: 84 201 187;
+  --color-secondary: 240 152 103;
+  --color-line: 60 84 88;
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-base font-body text-ink antialiased transition-colors duration-300;
+  min-height: 100vh;
+  background-image:
+    radial-gradient(circle at top left, rgba(38, 166, 154, 0.18), transparent 32%),
+    radial-gradient(circle at 85% 18%, rgba(204, 112, 54, 0.16), transparent 24%),
+    linear-gradient(180deg, rgb(var(--color-base)) 0%, rgb(var(--color-surface)) 100%);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+@layer base {
+  * {
+    @apply border-line;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-heading tracking-tight text-ink;
+  }
+
+  p {
+    @apply leading-7 text-muted;
+  }
+
+  a,
+  button,
+  input,
+  textarea {
+    @apply outline-none transition duration-300;
+  }
+
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible {
+    @apply ring-2 ring-accent/70 ring-offset-2 ring-offset-base;
+  }
+
+  ::selection {
+    @apply bg-accent/20 text-ink;
+  }
+
+  textarea {
+    resize: vertical;
+  }
+}
+
+@layer components {
+  .shell {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .panel {
+    @apply rounded-[28px] border border-line/70 bg-surface/85 shadow-card backdrop-blur;
+  }
+
+  .panel-muted {
+    @apply rounded-[24px] border border-line/60 bg-panel/55 backdrop-blur;
+  }
+
+  .section-kicker {
+    @apply inline-flex items-center gap-2 rounded-full border border-accent/20 bg-accent/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.28em] text-accent;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .ambient-orb {
+    @apply absolute rounded-full blur-3xl;
+  }
+
+  .input-shell {
+    @apply w-full rounded-2xl border border-line/70 bg-surface/80 px-4 py-3 text-sm text-ink placeholder:text-muted/70 focus:border-accent/60;
+  }
+}
