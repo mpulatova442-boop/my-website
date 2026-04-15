@@ -48,9 +48,9 @@ export function HeroSection() {
           <div className="grid gap-5">
             <div className="panel-muted relative overflow-hidden p-5">
               <img
-                alt={`${profile.name} portfolio illustration`}
+                alt={`${profile.name} portfolio photo`}
                 className="h-[320px] w-full rounded-[24px] object-cover"
-                src="/images/profile-portrait.svg"
+                src="/images/profile-photo.jpg"
               />
               <div className="absolute inset-x-5 bottom-5 rounded-[22px] border border-line/70 bg-surface/88 px-5 py-4 backdrop-blur">
                 <p className="text-sm font-semibold uppercase tracking-[0.22em] text-accent">Current focus</p>
