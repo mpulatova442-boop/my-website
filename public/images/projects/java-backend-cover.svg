@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" fill="none">
+  <rect width="1200" height="900" fill="#0B181B"/>
+  <circle cx="980" cy="170" r="220" fill="#26A69A" fill-opacity=".16"/>
+  <circle cx="210" cy="760" r="240" fill="#CC7036" fill-opacity=".12"/>
+  <rect x="96" y="102" width="1008" height="696" rx="36" fill="#122327" stroke="#3C5458" stroke-width="6"/>
+  <rect x="96" y="102" width="1008" height="74" rx="36" fill="#1C3438"/>
+  <circle cx="152" cy="139" r="10" fill="#CC7036"/>
+  <circle cx="184" cy="139" r="10" fill="#26A69A"/>
+  <rect x="142" y="226" width="430" height="514" rx="28" fill="#0E1D20"/>
+  <rect x="624" y="226" width="336" height="190" rx="24" fill="#153137"/>
+  <rect x="624" y="446" width="336" height="132" rx="24" fill="#153137"/>
+  <rect x="624" y="608" width="336" height="132" rx="24" fill="#153137"/>
+  <text x="168" y="324" fill="#7ED7CA" font-family="Courier New, monospace" font-size="28" font-weight="700">class PortfolioService</text>
+  <text x="168" y="372" fill="#E6F6F2" font-family="Courier New, monospace" font-size="22">private final List&lt;Project&gt; items;</text>
+  <text x="168" y="414" fill="#E6F6F2" font-family="Courier New, monospace" font-size="22">public Result create(Project input)</text>
+  <text x="168" y="456" fill="#E6F6F2" font-family="Courier New, monospace" font-size="22">if (validator.isValid(input))</text>
+  <text x="168" y="498" fill="#E6F6F2" font-family="Courier New, monospace" font-size="22">return repository.save(input);</text>
+  <text x="168" y="578" fill="#CCB1A0" font-family="Manrope, Arial, sans-serif" font-size="24" font-weight="700">Java Backend Project</text>
+  <text x="650" y="324" fill="#E6F6F2" font-family="Manrope, Arial, sans-serif" font-size="22" font-weight="700">Core focus</text>
+  <text x="650" y="358" fill="#8DCAC1" font-family="Manrope, Arial, sans-serif" font-size="20" font-weight="600">OOP  logic  structure</text>
+  <text x="650" y="506" fill="#E6F6F2" font-family="Manrope, Arial, sans-serif" font-size="22" font-weight="700">Practice areas</text>
+  <text x="650" y="540" fill="#8DCAC1" font-family="Manrope, Arial, sans-serif" font-size="20" font-weight="600">classes, methods, debugging</text>
+  <text x="650" y="668" fill="#E6F6F2" font-family="Manrope, Arial, sans-serif" font-size="22" font-weight="700">Why it mattered</text>
+  <text x="650" y="702" fill="#8DCAC1" font-family="Manrope, Arial, sans-serif" font-size="20" font-weight="600">understanding software beyond UI</text>
+</svg>

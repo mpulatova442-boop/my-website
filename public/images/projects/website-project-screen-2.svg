@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <rect width="1600" height="1000" fill="#F7F0E6"/>
+  <circle cx="1320" cy="150" r="170" fill="#CC7036" fill-opacity=".14"/>
+  <circle cx="300" cy="860" r="230" fill="#26A69A" fill-opacity=".12"/>
+  <rect x="304" y="70" width="340" height="860" rx="42" fill="#14292C"/>
+  <rect x="344" y="126" width="260" height="34" rx="17" fill="#FFF9F3" fill-opacity=".15"/>
+  <rect x="344" y="208" width="260" height="188" rx="28" fill="#26A69A"/>
+  <rect x="344" y="432" width="260" height="152" rx="24" fill="#FFF9F3"/>
+  <rect x="344" y="610" width="260" height="152" rx="24" fill="#FFF9F3"/>
+  <rect x="344" y="788" width="260" height="88" rx="24" fill="#CC7036"/>
+  <rect x="760" y="118" width="536" height="352" rx="30" fill="#FFF9F3" stroke="#D1C1AF" stroke-width="4"/>
+  <rect x="808" y="182" width="224" height="20" rx="10" fill="#14292C" fill-opacity=".2"/>
+  <rect x="808" y="226" width="380" height="56" rx="20" fill="#14292C"/>
+  <rect x="808" y="314" width="328" height="16" rx="8" fill="#14292C" fill-opacity=".16"/>
+  <rect x="808" y="346" width="298" height="16" rx="8" fill="#14292C" fill-opacity=".12"/>
+  <rect x="808" y="390" width="148" height="42" rx="21" fill="#26A69A"/>
+  <text x="760" y="560" fill="#14292C" font-family="Manrope, Arial, sans-serif" font-size="30" font-weight="700">Mobile-first variation and quick content hierarchy checks</text>
+</svg>

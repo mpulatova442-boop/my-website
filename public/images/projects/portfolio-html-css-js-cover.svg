@@ -1,0 +1,11 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f3f4f6"/>
+  <rect x="50" y="50" width="700" height="500" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+  <rect x="100" y="100" width="600" height="80" fill="#1f2937"/>
+  <rect x="100" y="200" width="250" height="20" fill="#6b7280"/>
+  <rect x="100" y="230" width="200" height="20" fill="#6b7280"/>
+  <rect x="100" y="280" width="150" height="30" fill="#3b82f6"/>
+  <rect x="270" y="280" width="150" height="30" fill="#10b981"/>
+  <rect x="100" y="340" width="600" height="200" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="400" y="450" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="24">Portfolio Preview</text>
+</svg>

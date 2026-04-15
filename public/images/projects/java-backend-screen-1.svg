@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <rect width="1600" height="1000" fill="#0B181B"/>
+  <rect x="88" y="82" width="1424" height="836" rx="36" fill="#122327" stroke="#3C5458" stroke-width="6"/>
+  <rect x="88" y="82" width="1424" height="86" rx="36" fill="#1C3438"/>
+  <rect x="150" y="118" width="180" height="18" rx="9" fill="#26A69A"/>
+  <rect x="162" y="226" width="620" height="610" rx="28" fill="#0E1D20"/>
+  <text x="214" y="310" fill="#7ED7CA" font-family="Courier New, monospace" font-size="34" font-weight="700">public class ProjectController</text>
+  <text x="214" y="374" fill="#E6F6F2" font-family="Courier New, monospace" font-size="24">@PostMapping("/projects")</text>
+  <text x="214" y="422" fill="#E6F6F2" font-family="Courier New, monospace" font-size="24">public ProjectResponse create(ProjectRequest request)</text>
+  <text x="214" y="470" fill="#E6F6F2" font-family="Courier New, monospace" font-size="24">Project project = service.create(request);</text>
+  <text x="214" y="518" fill="#E6F6F2" font-family="Courier New, monospace" font-size="24">return mapper.toResponse(project);</text>
+  <rect x="858" y="240" width="554" height="240" rx="28" fill="#153137"/>
+  <rect x="858" y="534" width="554" height="240" rx="28" fill="#153137"/>
+  <rect x="916" y="302" width="204" height="20" rx="10" fill="#E6F6F2" fill-opacity=".82"/>
+  <rect x="916" y="344" width="318" height="16" rx="8" fill="#E6F6F2" fill-opacity=".18"/>
+  <rect x="916" y="388" width="154" height="44" rx="22" fill="#26A69A"/>
+  <rect x="916" y="596" width="204" height="20" rx="10" fill="#E6F6F2" fill-opacity=".82"/>
+  <rect x="916" y="638" width="318" height="16" rx="8" fill="#E6F6F2" fill-opacity=".18"/>
+  <rect x="916" y="682" width="154" height="44" rx="22" fill="#CC7036"/>
+  <text x="162" y="930" fill="#E6F6F2" font-family="Manrope, Arial, sans-serif" font-size="30" font-weight="700">Backend structure study with controller, service, and response flow</text>
+</svg>

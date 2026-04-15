@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <rect width="1600" height="1000" fill="#F7F0E6"/>
+  <circle cx="1260" cy="220" r="210" fill="#26A69A" fill-opacity=".12"/>
+  <rect x="160" y="140" width="540" height="650" rx="34" fill="#FFFDF9" stroke="#E4D6C8" stroke-width="6"/>
+  <rect x="236" y="232" width="388" height="468" rx="26" fill="#14292C"/>
+  <circle cx="430" cy="404" r="106" fill="#FFFDF9"/>
+  <circle cx="386" cy="404" r="62" fill="#14292C"/>
+  <circle cx="474" cy="404" r="62" fill="#14292C"/>
+  <text x="316" y="590" fill="#FFFDF9" font-family="Georgia, serif" font-size="58" font-weight="700">M</text>
+  <text x="374" y="590" fill="#FFFDF9" font-family="Manrope, Arial, sans-serif" font-size="46" font-weight="700">Monsy</text>
+  <rect x="822" y="210" width="602" height="230" rx="30" fill="#FFFDF9"/>
+  <rect x="822" y="500" width="602" height="230" rx="30" fill="#FFFDF9"/>
+  <rect x="882" y="278" width="190" height="18" rx="9" fill="#14292C" fill-opacity=".2"/>
+  <rect x="882" y="320" width="346" height="54" rx="18" fill="#26A69A"/>
+  <rect x="882" y="568" width="190" height="18" rx="9" fill="#14292C" fill-opacity=".2"/>
+  <rect x="882" y="610" width="346" height="54" rx="18" fill="#CC7036"/>
+  <text x="160" y="888" fill="#14292C" font-family="Manrope, Arial, sans-serif" font-size="30" font-weight="700">Brand mockups showing the logo in polished presentation contexts</text>
+</svg>

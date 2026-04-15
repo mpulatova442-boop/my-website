@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <rect width="1600" height="1000" fill="#122327"/>
+  <circle cx="1320" cy="180" r="180" fill="#26A69A" fill-opacity=".12"/>
+  <rect x="170" y="140" width="520" height="720" rx="34" fill="#0E1D20" stroke="#3C5458" stroke-width="6"/>
+  <rect x="248" y="220" width="364" height="92" rx="24" fill="#153137"/>
+  <rect x="248" y="352" width="364" height="92" rx="24" fill="#153137"/>
+  <rect x="248" y="484" width="364" height="92" rx="24" fill="#153137"/>
+  <rect x="248" y="616" width="364" height="164" rx="24" fill="#153137"/>
+  <rect x="826" y="168" width="604" height="324" rx="32" fill="#0E1D20" stroke="#3C5458" stroke-width="6"/>
+  <rect x="826" y="542" width="604" height="248" rx="32" fill="#0E1D20" stroke="#3C5458" stroke-width="6"/>
+  <text x="892" y="262" fill="#7ED7CA" font-family="Courier New, monospace" font-size="30" font-weight="700">ProjectRequest -&gt; Service -&gt; Repository</text>
+  <text x="892" y="324" fill="#E6F6F2" font-family="Courier New, monospace" font-size="24">Validate input</text>
+  <text x="892" y="366" fill="#E6F6F2" font-family="Courier New, monospace" font-size="24">Create object</text>
+  <text x="892" y="408" fill="#E6F6F2" font-family="Courier New, monospace" font-size="24">Persist result</text>
+  <text x="892" y="630" fill="#CCB1A0" font-family="Manrope, Arial, sans-serif" font-size="30" font-weight="700">Debugging and data flow notes</text>
+  <text x="892" y="684" fill="#E6F6F2" font-family="Manrope, Arial, sans-serif" font-size="24" font-weight="600">Tracing how information moves through the program</text>
+</svg>

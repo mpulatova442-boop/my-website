@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import { Button } from './Button';
 
 export function ProjectCard({ project }) {
+  const liveDemoLink = project.links?.liveDemo;
+  const githubLink = project.links?.github;
+
   return (
     <article className="panel group flex h-full flex-col overflow-hidden">
       <div className="overflow-hidden border-b border-line/70 bg-panel/40">
@@ -40,25 +43,29 @@ export function ProjectCard({ project }) {
             Case Study
           </Button>
 
-          <a
-            className="inline-flex items-center gap-2 rounded-full border border-line/70 px-4 py-2.5 text-sm font-semibold text-ink transition hover:-translate-y-0.5 hover:bg-panel/55"
-            href={project.links.liveDemo}
-            rel="noreferrer"
-            target="_blank"
-          >
-            Live Demo
-            <ExternalLink size={15} />
-          </a>
+          {liveDemoLink ? (
+            <a
+              className="inline-flex items-center gap-2 rounded-full border border-line/70 px-4 py-2.5 text-sm font-semibold text-ink transition hover:-translate-y-0.5 hover:bg-panel/55"
+              href={liveDemoLink}
+              rel="noreferrer"
+              target="_blank"
+            >
+              Live Demo
+              <ExternalLink size={15} />
+            </a>
+          ) : null}
 
-          <a
-            aria-label={`${project.title} GitHub repository`}
-            className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-line/70 text-ink transition hover:-translate-y-0.5 hover:bg-panel/55"
-            href={project.links.github}
-            rel="noreferrer"
-            target="_blank"
-          >
-            <Github size={17} />
-          </a>
+          {githubLink ? (
+            <a
+              aria-label={`${project.title} GitHub repository`}
+              className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-line/70 text-ink transition hover:-translate-y-0.5 hover:bg-panel/55"
+              href={githubLink}
+              rel="noreferrer"
+              target="_blank"
+            >
+              <Github size={17} />
+            </a>
+          ) : null}
         </div>
 
         <Link

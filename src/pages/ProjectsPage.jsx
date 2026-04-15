@@ -29,9 +29,9 @@ export function ProjectsPage() {
 
       <section className="shell">
         <SectionHeading
-          description="Each case study highlights the mix of visual thinking, code quality, and deployment-ready structure that goes into a strong frontend build."
+          description="Each project reflects a different part of my learning journey: building interfaces, exploring visual identity, and practicing backend fundamentals in Java."
           eyebrow="Projects"
-          title="Selected portfolio work with detail pages, live demos, and source links."
+          title="Projects carried forward from my earlier portfolio and expanded into clearer case studies."
         />
 
         <div className="mt-8 panel px-5 py-5 sm:px-6">
@@ -39,7 +39,7 @@ export function ProjectsPage() {
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.2em] text-muted">Filter by technology</p>
               <p className="mt-2 text-sm text-muted">
-                Narrow the portfolio by stack focus to explore relevant projects faster.
+                Explore the portfolio by the tools and focus areas used in each project.
               </p>
             </div>
             <TechFilter

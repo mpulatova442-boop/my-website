@@ -6,12 +6,12 @@ import { StatusMessage } from '../ui/StatusMessage';
 
 export function FeaturedProjectsSection({ error, loading, projects }) {
   return (
-    <section className="shell mt-20 scroll-mt-28" id="featured-work">
+    <section className="shell mt-20 scroll-mt-28" id="projects">
       <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
         <SectionHeading
-          description="A curated mix of marketing, product, and ecommerce work showing adaptable visual systems and clean React structure."
-          eyebrow="Selected work"
-          title="Featured projects built for real users, real teams, and real launch conditions."
+          description="These three pieces come directly from the earlier HTML, CSS, and JavaScript portfolio: a website build, a logo design exercise, and a Java backend practice project."
+          eyebrow="Projects"
+          title="The original portfolio projects, rebuilt here with clearer structure and more depth."
         />
         <Button icon={<ArrowRight size={16} />} to="/projects" variant="secondary">
           See All Projects

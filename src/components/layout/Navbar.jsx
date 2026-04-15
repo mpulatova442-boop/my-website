@@ -53,8 +53,8 @@ export function Navbar() {
                 {item.label}
               </NavLink>
             ))}
-            <Link className={linkBaseClasses} to="/#featured-work">
-              Highlights
+            <Link className={linkBaseClasses} to="/#projects">
+              Home Projects
             </Link>
           </nav>
 
@@ -92,8 +92,8 @@ export function Navbar() {
                 {item.label}
               </NavLink>
             ))}
-            <Link className={cn(linkBaseClasses, 'px-4 py-3')} to="/#featured-work">
-              Highlights
+            <Link className={cn(linkBaseClasses, 'px-4 py-3')} to="/#projects">
+              Home Projects
             </Link>
             <Button className="mt-2 w-full justify-center" to="/contact">
               Start a Project

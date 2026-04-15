@@ -1,95 +1,89 @@
 [
   {
     "id": 1,
-    "slug": "signal-studio",
-    "title": "Signal Studio",
-    "tagline": "Editorial portfolio platform for a boutique design agency.",
-    "summary": "A modern brand storytelling site with layered sections, motion-inspired layouts, and a reusable marketing component system.",
-    "description": "Signal Studio was designed to help a creative agency present case studies, services, and lead capture content through a premium editorial interface. The project focused on visual hierarchy, accessible contrast, and responsive storytelling blocks that scale cleanly across screen sizes.",
-    "techStack": ["React", "Tailwind CSS", "React Router", "Vite"],
-    "category": "Marketing",
+    "slug": "website-project",
+    "title": "Website Project",
+    "tagline": "Responsive personal portfolio built with HTML, CSS, and JavaScript.",
+    "summary": "A first portfolio website that brought together hero, about, skills, projects, and contact sections in one clean, shareable flow.",
+    "description": "This project began as a straightforward one-page portfolio and helped me practice how sections connect, how anchor navigation improves browsing, and how a complete site can be published online. Bringing it into this React portfolio keeps the original idea alive while presenting it with clearer structure and stronger case-study detail.",
+    "techStack": ["HTML", "CSS", "JavaScript", "Responsive Design"],
+    "category": "Frontend",
     "featured": true,
-    "image": "/images/projects/signal-studio-cover.svg",
+    "image": "/images/projects/website-project-cover.svg",
     "screenshots": [
-      "/images/projects/signal-studio-screen-1.svg",
-      "/images/projects/signal-studio-screen-2.svg"
+      "/images/projects/website-project-screen-1.svg",
+      "/images/projects/website-project-screen-2.svg"
     ],
     "features": [
-      "Modular marketing sections for services, process, and case study storytelling",
-      "Responsive navigation with mobile drawer and sticky CTA treatment",
-      "Accessible layout system with strong heading structure and focus states",
-      "Reusable card patterns for testimonials, project highlights, and contact prompts"
+      "Single-page layout with hero, about, skills, projects, and contact sections",
+      "Anchor navigation that helps visitors move through the portfolio quickly",
+      "Projects area inspired by the original HTML, CSS, and JavaScript version",
+      "Responsive spacing and typography tuned for desktop and mobile viewing"
     ],
     "metrics": [
-      "34% stronger lead-capture conversion in the concept benchmark",
-      "95+ lighthouse score target across performance and accessibility",
-      "Single codebase optimized for desktop, tablet, and mobile launch"
+      "Published on GitHub Pages for easy sharing and iteration",
+      "Strengthened confidence with HTML structure, CSS styling, and JavaScript setup",
+      "Created the foundation for later upgrades into React and Tailwind CSS"
     ],
     "links": {
-      "liveDemo": "https://example.com/signal-studio",
-      "github": "https://github.com/munisa-polatova/signal-studio"
+      "liveDemo": "https://mpulatova442-boop.github.io/portfolio-html-css-js/",
+      "github": "https://github.com/mpulatova442-boop/portfolio-html-css-js"
     }
   },
   {
     "id": 2,
-    "slug": "northstar-dashboard",
-    "title": "Northstar Dashboard",
-    "tagline": "Operations dashboard for a distributed product team.",
-    "summary": "A data-focused interface concept balancing dense information with quick scanning, status clarity, and responsive layout rules.",
-    "description": "Northstar Dashboard rethinks how internal teams monitor launches, sprint health, and campaign status. The product detail work prioritized card hierarchy, metric emphasis, and flexible dashboard regions that stay usable even on smaller screens.",
-    "techStack": ["React", "JavaScript", "Tailwind CSS", "Charts"],
-    "category": "Product",
+    "slug": "logo-design",
+    "title": "Logo Design",
+    "tagline": "Beginner branding project focused on a simple startup identity concept.",
+    "summary": "A design exercise centered on creating a memorable logo, pairing it with supporting colors, and presenting it through clean mockups.",
+    "description": "The logo design project gave me space to think visually instead of only through code. It focused on clarity, balance, and first impressions by exploring logo marks, type pairings, and a small brand palette that could feel professional even in a simple presentation.",
+    "techStack": ["Logo Design", "Branding", "Typography"],
+    "category": "Design",
     "featured": true,
-    "image": "/images/projects/northstar-dashboard-cover.svg",
+    "image": "/images/projects/logo-design-cover.svg",
     "screenshots": [
-      "/images/projects/northstar-dashboard-screen-1.svg",
-      "/images/projects/northstar-dashboard-screen-2.svg"
+      "/images/projects/logo-design-screen-1.svg",
+      "/images/projects/logo-design-screen-2.svg"
     ],
     "features": [
-      "Adaptive dashboard grid with metric cards, trends, and team snapshots",
-      "Status badge system for releases, blockers, and sprint health",
-      "Compact visual language for tables, charts, and quick actions",
-      "Filter-friendly architecture ready for API-backed data"
+      "Explored several logo directions before refining one clear final concept",
+      "Built a small palette and type pairing to support the brand direction",
+      "Created presentation-style mockups to show the logo in realistic contexts",
+      "Practiced visual consistency across icon, wordmark, and support graphics"
     ],
     "metrics": [
-      "Reduced visual clutter by grouping related insight panels",
-      "Responsive shell tested for touch devices and laptop breakpoints",
-      "Prepared component structure for long-term product scaling"
+      "Improved confidence in composition, spacing, and color balance",
+      "Turned a basic startup idea into a more thoughtful visual identity direction",
+      "Expanded my portfolio beyond code into design communication"
     ],
-    "links": {
-      "liveDemo": "https://example.com/northstar-dashboard",
-      "github": "https://github.com/munisa-polatova/northstar-dashboard"
-    }
+    "links": {}
   },
   {
     "id": 3,
-    "slug": "harbor-commerce",
-    "title": "Harbor Commerce",
-    "tagline": "Lifestyle storefront concept for curated home goods.",
-    "summary": "A polished ecommerce experience with product storytelling, collection highlights, and a warm visual system built for trust.",
-    "description": "Harbor Commerce blends editorial storytelling with a conversion-friendly storefront. The experience uses rich collection imagery, strong spacing, and product discovery sections that guide customers from inspiration to checkout.",
-    "techStack": ["React", "Tailwind CSS", "Vite", "SEO"],
-    "category": "Ecommerce",
+    "slug": "java-backend-project",
+    "title": "Java Backend Project",
+    "tagline": "Server-side Java practice project focused on structure, logic, and backend thinking.",
+    "summary": "A foundational Java exercise that strengthened object-oriented thinking, code organization, and step-by-step debugging.",
+    "description": "This backend project was part of my effort to understand how software works beyond the interface. It focused on core Java concepts, readable program structure, and writing logic that is easier to follow, test, and extend as projects become more complex.",
+    "techStack": ["Java", "Backend", "OOP"],
+    "category": "Backend",
     "featured": true,
-    "image": "/images/projects/harbor-commerce-cover.svg",
+    "image": "/images/projects/java-backend-cover.svg",
     "screenshots": [
-      "/images/projects/harbor-commerce-screen-1.svg",
-      "/images/projects/harbor-commerce-screen-2.svg"
+      "/images/projects/java-backend-screen-1.svg",
+      "/images/projects/java-backend-screen-2.svg"
     ],
     "features": [
-      "Collection-led homepage with editorial banners and trust-building product detail sections",
-      "Reusable merchandising cards and product category spotlights",
-      "Mobile-first layout with simplified navigation and CTA hierarchy",
-      "SEO-conscious page structure with semantic content blocks"
+      "Organized backend code into clearer classes and responsibilities",
+      "Practiced object-oriented design through reusable models and methods",
+      "Worked through data flow, program logic, and input handling step by step",
+      "Used the project to connect frontend interests with backend problem solving"
     ],
     "metrics": [
-      "Improved product discoverability with clearer category framing",
-      "Built to support static deployment and future CMS integration",
-      "Consistent component patterns across landing and catalog pages"
+      "Built confidence with Java syntax and backend project structure",
+      "Improved debugging habits by tracing logic carefully from input to output",
+      "Strengthened the technical foundation behind my broader web-learning journey"
     ],
-    "links": {
-      "liveDemo": "https://example.com/harbor-commerce",
-      "github": "https://github.com/munisa-polatova/harbor-commerce"
-    }
+    "links": {}
   }
 ]

@@ -31,8 +31,8 @@ export function HeroSection() {
               <Button size="lg" to="/contact" variant="secondary">
                 Contact Me
               </Button>
-              <Button icon={<ArrowDownRight size={16} />} size="lg" to="/#featured-work" variant="ghost">
-                Smooth Scroll Highlights
+              <Button icon={<ArrowDownRight size={16} />} size="lg" to="/#projects" variant="ghost">
+                Jump to Projects
               </Button>
             </div>
 

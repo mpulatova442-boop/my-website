@@ -8,6 +8,8 @@ import { useProject } from '../hooks/useProjects';
 export function ProjectDetailPage() {
   const { slug = '' } = useParams();
   const { project, loading, error } = useProject(slug);
+  const liveDemoLink = project?.links?.liveDemo;
+  const githubLink = project?.links?.github;
 
   if (loading) {
     return (
@@ -73,14 +75,20 @@ export function ProjectDetailPage() {
               ))}
             </div>
 
-            <div className="mt-8 flex flex-wrap gap-3">
-              <Button href={project.links.liveDemo} icon={<ExternalLink size={16} />}>
-                Live Demo
-              </Button>
-              <Button href={project.links.github} icon={<Github size={16} />} variant="secondary">
-                GitHub
-              </Button>
-            </div>
+            {liveDemoLink || githubLink ? (
+              <div className="mt-8 flex flex-wrap gap-3">
+                {liveDemoLink ? (
+                  <Button href={liveDemoLink} icon={<ExternalLink size={16} />}>
+                    Live Demo
+                  </Button>
+                ) : null}
+                {githubLink ? (
+                  <Button href={githubLink} icon={<Github size={16} />} variant="secondary">
+                    GitHub
+                  </Button>
+                ) : null}
+              </div>
+            ) : null}
           </div>
         </div>
       </section>
@@ -100,7 +108,7 @@ export function ProjectDetailPage() {
           </div>
 
           <div className="panel px-6 py-7 sm:px-8">
-            <h2 className="text-2xl font-bold">Impact & outcomes</h2>
+            <h2 className="text-2xl font-bold">Results & learning</h2>
             <div className="mt-5 space-y-4">
               {project.metrics.map((metric) => (
                 <div key={metric} className="flex gap-3 text-sm text-muted">
@@ -117,10 +125,10 @@ export function ProjectDetailPage() {
         <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <span className="section-kicker">Screenshots</span>
-            <h2 className="mt-4 text-3xl font-bold text-balance">A closer look at the interface system.</h2>
+            <h2 className="mt-4 text-3xl font-bold text-balance">A closer look at the project materials.</h2>
           </div>
           <p className="max-w-2xl text-sm">
-            Each screen reflects the same core priorities: clear hierarchy, consistent spacing, and responsive layout behavior.
+            These views highlight the layouts, mockups, and technical frames that shaped each project while it was being developed.
           </p>
         </div>
 
