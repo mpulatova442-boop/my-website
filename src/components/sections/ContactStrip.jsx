@@ -10,15 +10,15 @@ export function ContactStrip() {
           <div>
             <span className="section-kicker">Next step</span>
             <h2 className="mt-4 text-3xl font-bold text-balance sm:text-4xl">
-              Need a portfolio-worthy frontend experience for your brand or product?
+              Interested in collaborating, mentoring, or discussing cybersecurity and web development?
             </h2>
             <p className="mt-4 max-w-2xl">
-              I help teams shape clear narratives, scalable UI patterns, and responsive builds that feel finished from day one.
+              I am always excited to connect with people who value learning, clean work, and meaningful tech projects.
             </p>
           </div>
 
           <div className="flex flex-wrap gap-3">
-            <Button to="/contact">Start a Conversation</Button>
+            <Button to="/contact">Get in Touch</Button>
             <Button href={`mailto:${profile.email}`} icon={<ArrowUpRight size={16} />} variant="secondary">
               Email Directly
             </Button>

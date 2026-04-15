@@ -9,15 +9,15 @@
   <path d="M279 324C279 277.608 316.608 240 363 240V240C409.392 240 447 277.608 447 324V382H279V324Z" fill="#14292C"/>
   <path d="M252 570C252 491.023 316.023 427 395 427H331C409.977 427 474 491.023 474 570V627H252V570Z" fill="#26A69A"/>
   <rect x="624" y="182" width="400" height="170" rx="26" fill="#1E3A3E"/>
-  <text x="664" y="238" fill="#F7F0E6" font-family="Space Grotesk, sans-serif" font-size="28" font-weight="700">Avery Morgan</text>
-  <text x="664" y="288" fill="#9CB2B0" font-family="Manrope, sans-serif" font-size="24">Frontend Developer</text>
+  <text x="664" y="238" fill="#F7F0E6" font-family="Space Grotesk, sans-serif" font-size="24" font-weight="700">Munisa Polatova</text>
+  <text x="664" y="288" fill="#9CB2B0" font-family="Manrope, sans-serif" font-size="24">Cybersecurity Student</text>
   <rect x="624" y="402" width="400" height="180" rx="26" fill="#F7F0E6"/>
-  <text x="664" y="462" fill="#26A69A" font-family="Space Grotesk, sans-serif" font-size="24" font-weight="700">Design + Code</text>
-  <text x="664" y="516" fill="#5A6E70" font-family="Manrope, sans-serif" font-size="22">Responsive product interfaces</text>
-  <text x="664" y="550" fill="#5A6E70" font-family="Manrope, sans-serif" font-size="22">Thoughtful systems</text>
-  <text x="664" y="584" fill="#5A6E70" font-family="Manrope, sans-serif" font-size="22">Premium launch polish</text>
+  <text x="664" y="462" fill="#26A69A" font-family="Space Grotesk, sans-serif" font-size="24" font-weight="700">Security + Web</text>
+  <text x="664" y="516" fill="#5A6E70" font-family="Manrope, sans-serif" font-size="22">Frontend practice</text>
+  <text x="664" y="550" fill="#5A6E70" font-family="Manrope, sans-serif" font-size="22">Cybersecurity learning</text>
+  <text x="664" y="584" fill="#5A6E70" font-family="Manrope, sans-serif" font-size="22">Steady growth</text>
   <rect x="624" y="632" width="196" height="96" rx="24" fill="#26A69A"/>
   <rect x="844" y="632" width="180" height="96" rx="24" fill="#F09867"/>
-  <text x="668" y="690" fill="#14292C" font-family="Space Grotesk, sans-serif" font-size="32" font-weight="700">5+ yrs</text>
-  <text x="879" y="690" fill="#14292C" font-family="Space Grotesk, sans-serif" font-size="32" font-weight="700">24 launches</text>
+  <text x="668" y="690" fill="#14292C" font-family="Space Grotesk, sans-serif" font-size="26" font-weight="700">1st year</text>
+  <text x="879" y="690" fill="#14292C" font-family="Space Grotesk, sans-serif" font-size="24" font-weight="700">Cybersecurity</text>
 </svg>

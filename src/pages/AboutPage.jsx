@@ -9,7 +9,7 @@ export function AboutPage() {
   return (
     <>
       <SEO
-        description="Learn more about Avery Morgan's background, skills, experience, and frontend product design approach."
+        description="Learn more about Munisa Polatova, a first-year IDU University student majoring in Cybersecurity and growing through frontend projects."
         pathname="/about"
         title="About"
       />
@@ -18,9 +18,9 @@ export function AboutPage() {
         <div className="grid gap-10 lg:grid-cols-[1fr,0.9fr]">
           <div className="panel px-6 py-8 sm:px-8">
             <SectionHeading
-              description="I enjoy the kind of frontend work that blends product thinking with visual precision: layout systems, component architecture, and interfaces that feel excellent to use."
+              description="I am a first-year student at IDU University majoring in Cybersecurity. Alongside my university studies, I enjoy building modern web interfaces and using this portfolio to show my growth, discipline, and creativity."
               eyebrow="About me"
-              title="Frontend developer with a product eye and a strong bias for clean execution."
+              title="Student focused on cybersecurity, web development, and continuous growth."
             />
 
             <div className="mt-8 grid gap-5 sm:grid-cols-3">
@@ -32,12 +32,12 @@ export function AboutPage() {
               <div className="panel-muted px-4 py-4">
                 <Briefcase className="text-accent" size={18} />
                 <p className="mt-3 text-sm font-semibold text-ink">Focus</p>
-                <p className="mt-1 text-sm">React products, design systems, premium marketing sites</p>
+                <p className="mt-1 text-sm">Cybersecurity, frontend practice, and secure digital experiences</p>
               </div>
               <div className="panel-muted px-4 py-4">
                 <Star className="text-accent" size={18} />
                 <p className="mt-3 text-sm font-semibold text-ink">Approach</p>
-                <p className="mt-1 text-sm">Accessible, responsive, launch-ready, and visually distinct</p>
+                <p className="mt-1 text-sm">Curious, disciplined, and motivated by steady real-world progress</p>
               </div>
             </div>
 
@@ -71,7 +71,7 @@ export function AboutPage() {
           <div className="space-y-6">
             <div className="panel overflow-hidden p-4">
               <img
-                alt="Avery Morgan workspace illustration"
+                alt="Munisa Polatova workspace illustration"
                 className="h-[300px] w-full rounded-[24px] object-cover"
                 src="/images/profile-workspace.svg"
               />
@@ -103,9 +103,9 @@ export function AboutPage() {
         <div className="grid gap-10 lg:grid-cols-[0.9fr,1.1fr]">
           <div className="panel px-6 py-8 sm:px-8">
             <SectionHeading
-              description="A mix of hard engineering and design collaboration skills, shaped by shipping across marketing, product, and ecommerce environments."
+              description="A developing mix of technical skills, practical project work, and habits that help me grow with consistency."
               eyebrow="Skills"
-              title="Technical strengths and day-to-day collaboration skills."
+              title="Technical strengths I am actively building."
             />
 
             <div className="mt-8 space-y-6">
@@ -137,9 +137,9 @@ export function AboutPage() {
 
       <section className="shell mt-20">
         <SectionHeading
-          description="Experience across product-minded teams, creative agencies, and frontend systems that need to remain maintainable under real timelines."
-          eyebrow="Experience"
-          title="A timeline of recent work and growth."
+          description="A snapshot of what I am currently studying and building as I shape my portfolio and strengthen my technical foundation."
+          eyebrow="Journey"
+          title="My academic and project journey so far."
         />
 
         <div className="mt-10 grid gap-5">

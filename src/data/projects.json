@@ -27,7 +27,7 @@
     ],
     "links": {
       "liveDemo": "https://example.com/signal-studio",
-      "github": "https://github.com/averymorgan/signal-studio"
+      "github": "https://github.com/munisa-polatova/signal-studio"
     }
   },
   {
@@ -58,7 +58,7 @@
     ],
     "links": {
       "liveDemo": "https://example.com/northstar-dashboard",
-      "github": "https://github.com/averymorgan/northstar-dashboard"
+      "github": "https://github.com/munisa-polatova/northstar-dashboard"
     }
   },
   {
@@ -89,7 +89,7 @@
     ],
     "links": {
       "liveDemo": "https://example.com/harbor-commerce",
-      "github": "https://github.com/averymorgan/harbor-commerce"
+      "github": "https://github.com/munisa-polatova/harbor-commerce"
     }
   }
 ]

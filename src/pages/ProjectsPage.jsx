@@ -22,7 +22,7 @@ export function ProjectsPage() {
   return (
     <>
       <SEO
-        description="Browse featured React, Tailwind, and product-focused portfolio projects by Avery Morgan."
+        description="Browse portfolio projects by Munisa Polatova, focused on frontend practice, responsive design, and continuous technical growth."
         pathname="/projects"
         title="Projects"
       />

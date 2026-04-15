@@ -12,7 +12,7 @@ export function HeroSection() {
 
         <div className="relative grid gap-12 lg:grid-cols-[1.2fr,0.8fr] lg:items-center">
           <div>
-            <span className="section-kicker">Frontend portfolio</span>
+            <span className="section-kicker">Student portfolio</span>
             <h1 className="mt-5 max-w-3xl text-4xl font-bold text-balance sm:text-5xl xl:text-6xl">
               {profile.name}
               <span className="block text-accent">{profile.role}</span>
@@ -55,7 +55,7 @@ export function HeroSection() {
               <div className="absolute inset-x-5 bottom-5 rounded-[22px] border border-line/70 bg-surface/88 px-5 py-4 backdrop-blur">
                 <p className="text-sm font-semibold uppercase tracking-[0.22em] text-accent">Current focus</p>
                 <p className="mt-2 text-sm text-muted">
-                  Product marketing sites, scalable React components, and premium responsive UI systems.
+                  Cybersecurity fundamentals, frontend practice, and building clean responsive web experiences.
                 </p>
               </div>
             </div>

@@ -80,7 +80,7 @@ export function ContactPage() {
   return (
     <>
       <SEO
-        description="Get in touch with Avery Morgan about frontend development, product interfaces, and design system work."
+        description="Get in touch with Munisa Polatova about internships, collaborations, student projects, cybersecurity, and frontend development."
         pathname="/contact"
         title="Contact"
       />
@@ -90,9 +90,9 @@ export function ContactPage() {
           <div className="space-y-6">
             <div className="panel px-6 py-8 sm:px-8">
               <span className="section-kicker">Contact</span>
-              <h1 className="mt-4 text-4xl font-bold text-balance">Let&apos;s talk about your next frontend project.</h1>
+              <h1 className="mt-4 text-4xl font-bold text-balance">Let&apos;s connect and grow through meaningful tech projects.</h1>
               <p className="mt-4">
-                Whether you need a polished portfolio, a marketing site, or a cleaner React architecture, I&apos;m happy to help shape the next step.
+                I am always happy to connect about internships, student collaborations, cybersecurity, frontend development, and opportunities to learn through real work.
               </p>
             </div>
 

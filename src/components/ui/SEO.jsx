@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 
-const siteName = 'Avery Morgan';
-const fallbackSiteUrl = 'https://averymorgan.dev';
+const siteName = 'Munisa Polatova';
+const fallbackSiteUrl = 'https://munisapolatova.dev';
 
 export function SEO({ description, pathname = '', title }) {
   const fullTitle = title ? `${title} | ${siteName}` : `${siteName} | Frontend Developer Portfolio`;

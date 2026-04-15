@@ -11,7 +11,7 @@ export function HomePage() {
   return (
     <>
       <SEO
-        description="Avery Morgan is a frontend developer and UX engineer building polished, responsive React experiences."
+        description="Munisa Polatova is a first-year IDU University student majoring in Cybersecurity and building a growing frontend portfolio."
         pathname="/"
         title="Home"
       />

@@ -11,7 +11,7 @@ export function Footer() {
           <div>
             <span className="section-kicker">Let&apos;s build something thoughtful</span>
             <h2 className="mt-4 max-w-xl text-3xl font-bold text-balance sm:text-4xl">
-              Frontend systems, brand storytelling, and polished product experiences.
+              Learning cybersecurity, building interfaces, and growing one project at a time.
             </h2>
             <p className="mt-4 max-w-2xl">
               {profile.availability}

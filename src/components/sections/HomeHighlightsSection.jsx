@@ -5,9 +5,9 @@ export function HomeHighlightsSection() {
   return (
     <section className="shell mt-20">
       <SectionHeading
-        description="A strong portfolio is more than visuals. It should show decision-making, structure, and the ability to ship polished experiences reliably."
+        description="This portfolio is not only about visuals. It also shows how I learn, solve problems, and turn new knowledge into real projects."
         eyebrow="What I bring"
-        title="A frontend process shaped around clarity, reusability, and launch readiness."
+        title="A growing portfolio built around curiosity, consistency, and practical learning."
       />
 
       <div className="mt-10 grid gap-5 lg:grid-cols-3">
