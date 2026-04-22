@@ -62,10 +62,10 @@
     "id": 3,
     "slug": "java-backend-project",
     "title": "Java Backend Project",
-    "tagline": "Server-side Java practice project focused on structure, logic, and backend thinking.",
-    "summary": "A foundational Java exercise that strengthened object-oriented thinking, code organization, and step-by-step debugging.",
-    "description": "This backend project was part of my effort to understand how software works beyond the interface. It focused on core Java concepts, readable program structure, and writing logic that is easier to follow, test, and extend as projects become more complex.",
-    "techStack": ["Java", "Backend", "OOP"],
+    "tagline": "A practical banking system demonstrating core OOP principles and clean Java design.",
+    "summary": "A foundational Java exercise that strengthened object-oriented thinking through a real-world banking system with account management, transactions, and error handling.",
+    "description": "The Banking System project demonstrates how to build practical backend logic using Java. It focuses on core OOP concepts including encapsulation, proper error handling, and maintainable code structure. The system manages bank accounts with deposit, withdrawal, and transfer operations—showing how different objects interact in a cohesive system.",
+    "techStack": ["Java", "OOP", "Backend Logic", "Object-Oriented Design"],
     "category": "Backend",
     "featured": true,
     "image": "/images/projects/java-backend-cover.svg",
@@ -74,16 +74,22 @@
       "/images/projects/java-backend-screen-2.svg"
     ],
     "features": [
-      "Organized backend code into clearer classes and responsibilities",
-      "Practiced object-oriented design through reusable models and methods",
-      "Worked through data flow, program logic, and input handling step by step",
-      "Used the project to connect frontend interests with backend problem solving"
+      "BankAccount class with private fields and controlled access (encapsulation)",
+      "Deposit method with validation for positive amounts",
+      "Withdraw method with balance checking and error handling",
+      "Transfer method demonstrating inter-object communication",
+      "Clear feedback messages for each operation",
+      "Account information display with formatted output",
+      "Practical demonstration of state management and business logic"
     ],
     "metrics": [
-      "Built confidence with Java syntax and backend project structure",
-      "Improved debugging habits by tracing logic carefully from input to output",
-      "Strengthened the technical foundation behind my broader web-learning journey"
+      "Simple, readable code focused on clarity over complexity",
+      "Proper error handling that prevents invalid operations",
+      "Real-world use case that connects abstract OOP to practical applications",
+      "Foundation for understanding how backend systems manage data and operations"
     ],
-    "links": {}
+    "links": {
+      "github": "https://github.com/munisa-polatova/banking-system-java"
+    }
   }
 ]

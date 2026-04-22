@@ -1,4 +1,4 @@
-import { Mail, MapPin, Send } from 'lucide-react';
+import { Mail, MapPin, Phone, Send } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { Button } from '../components/ui/Button';
 import { SEO } from '../components/ui/SEO';
@@ -105,6 +105,18 @@ export function ContactPage() {
                   <p className="text-sm font-semibold uppercase tracking-[0.2em] text-muted">Email</p>
                   <a className="mt-2 inline-flex text-lg font-semibold text-ink transition hover:text-accent" href={`mailto:${profile.email}`}>
                     {profile.email}
+                  </a>
+                </div>
+              </div>
+
+              <div className="mt-5 flex items-start gap-4">
+                <div className="rounded-2xl bg-accent/10 p-3 text-accent">
+                  <Phone size={18} />
+                </div>
+                <div>
+                  <p className="text-sm font-semibold uppercase tracking-[0.2em] text-muted">Phone</p>
+                  <a className="mt-2 inline-flex text-lg font-semibold text-ink transition hover:text-accent" href="tel:+998996433470">
+                    +998 (99) 643-34-70
                   </a>
                 </div>
               </div>
