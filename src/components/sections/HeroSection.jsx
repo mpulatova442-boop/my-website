@@ -31,9 +31,6 @@ export function HeroSection() {
               <Button size="lg" to="/contact" variant="secondary">
                 Contact Me
               </Button>
-              <Button icon={<ArrowDownRight size={16} />} size="lg" to="/#projects" variant="ghost">
-                Jump to Projects
-              </Button>
             </div>
 
             <div className="mt-8 flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">

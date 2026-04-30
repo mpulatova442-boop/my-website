@@ -1,6 +1,31 @@
 # Personal Portfolio Website
 
-A production-ready personal portfolio built with React 18, Vite, React Router v6, and Tailwind CSS.
+This project is a production-ready personal portfolio built with React, Vite, and Tailwind CSS.
+
+## What is included
+
+- Fully responsive multi-page portfolio with `Home`, `About`, `Projects`, and `Contact` pages
+- Modern component-based architecture with small reusable React components
+- Portfolio project list with dynamic detail pages and project filtering
+- Contact form with validation and success/error states
+- Theme toggle and smooth UI interactions
+- SEO-ready metadata using `react-helmet-async`
+
+## Technologies
+
+- React 18
+- Vite
+- React Router v6
+- Tailwind CSS
+- Lucide icons
+- React Helmet Async
+
+## Project highlights
+
+- Clean, modern design optimized for desktop, tablet, and mobile
+- Structured layout with reusable sections and utility components
+- Java backend project example included with working source files
+- Ready to deploy to Vercel, Netlify, or GitHub Pages
 
 ## Run locally
 
@@ -15,16 +40,6 @@ npm run dev
 npm run build
 ```
 
-## Deploy
+## Notes
 
-- Netlify: drag the project in or connect the repo. The included `public/_redirects` file handles SPA routing.
-- Vercel: import the project. The included `vercel.json` rewrite handles SPA routing.
-
-## Tech stack
-
-- React 18
-- Vite
-- React Router v6
-- Tailwind CSS
-- Lucide React
-- React Helmet Async
+The portfolio content is stored in JSON and uses local project data loaded via a custom hook. Update `src/data/projects.json` to add or change portfolio entries.

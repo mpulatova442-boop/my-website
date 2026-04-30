@@ -53,9 +53,6 @@ export function Navbar() {
                 {item.label}
               </NavLink>
             ))}
-            <Link className={linkBaseClasses} to="/#projects">
-              Home Projects
-            </Link>
           </nav>
 
           <div className="hidden items-center gap-3 lg:flex">
@@ -92,9 +89,6 @@ export function Navbar() {
                 {item.label}
               </NavLink>
             ))}
-            <Link className={cn(linkBaseClasses, 'px-4 py-3')} to="/#projects">
-              Home Projects
-            </Link>
             <Button className="mt-2 w-full justify-center" to="/contact">
               Start a Project
             </Button>
